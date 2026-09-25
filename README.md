@@ -1,0 +1,1 @@
+git@github.com:noxigenn/slozhno-sosredotochitsya-fd.git
