@@ -11,10 +11,11 @@
 .header {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr min-content 1fr;
   position: relative;
   height: 100vh;
   min-height: 668px;
+  margin-bottom: 40px;
 }
 
 .header__theme-menu {
@@ -61,8 +62,7 @@
 }
 
 .header__desc {
-  justify-self:flex-end;
-  align-self: center;
+    align-self: center;
 }
 
 .header__decor {
@@ -231,9 +231,23 @@
 }
 
 @media (width >= 768px) {
+
+  .page {
+    padding: 20px;
+  }
+
+  .footer.decorative-corner::after {
+    top: 40px;
+  }
+
+.header.decorative-corner::before {
+    bottom: 40px;
+  }
+
   .header {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
   }
 
   .header__title {
