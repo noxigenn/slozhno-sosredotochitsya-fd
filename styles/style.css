@@ -11,7 +11,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr;
   position: relative;
   height: 100vh;
   min-height: 668px;
@@ -34,7 +34,6 @@
   font-family: var(--main-font-family);
   background-color: transparent;
   font-size: 18px;
-  line-height: 18px;
   padding: 2px 13px 4px;
   text-transform: lowercase;
   border: 1px solid transparent;
@@ -69,7 +68,7 @@
 
 .header__decor {
   position: absolute; 
-  display: var(--rec-show); 
+  display: var(--rec-show);
   align-items: center;
   top:0;
   right: 8px;
@@ -82,7 +81,7 @@
 }
 
 .header__decor::after {
-  content: ""; 
+  content: "";
   width: 9px;
   height: 9px;
   border-radius: 50%;
@@ -188,7 +187,7 @@
 .gallery_img {
   width: 100%;
   height: auto;
-  display: block; 
+  display: block;
 } 
 
 .footer {
@@ -251,7 +250,7 @@
   }
 
   .section-whay-so-hard {
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .section-whay-so-hard article {
@@ -259,18 +258,18 @@
   }
 
   .section-how-to-concentrate-better {
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  .section-how-to-concentrate-better article  {
-        grid-column: 2 / 4;
+  .section-how-to-concentrate-better article {
+    grid-column: 2 / 4;
   }
 
   .gallery {
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, min-content); 
-    grid-template-areas: 
+    grid-template-areas:
     "title title title"
     "sunset sunset ice"
     "tape books ice"
