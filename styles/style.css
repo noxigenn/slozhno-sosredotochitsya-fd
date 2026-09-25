@@ -30,7 +30,6 @@
 
 .header__theme-menu-button {
   color: var(--ul-color);
-  font-size: var(--main-font-size);
   font-family: var(--main-font-family);
   background-color: transparent;
   font-size: 18px;
@@ -67,7 +66,7 @@
 }
 
 .header__decor {
-  position: absolute; 
+  position: absolute;
   display: var(--rec-show);
   align-items: center;
   top:0;
@@ -268,7 +267,7 @@
   .gallery {
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, min-content); 
+    grid-template-rows: repeat(4, min-content);
     grid-template-areas:
     "title title title"
     "sunset sunset ice"
